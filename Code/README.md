@@ -1,6 +1,6 @@
 # CONTENTS
 
-  - Chapter 1. Introduction to Statistical Learning Methods
+  - [Chapter 1. Introduction to Statistical Learning Methods](https://github.com/Eurus-Holmes/Statistical_Learning_Method/blob/master/Code/Introduction-to-Statistical-Learning-Methods.ipynb)
 
   - Chapter 2. Perceptron
 
