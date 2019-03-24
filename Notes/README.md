@@ -8,7 +8,7 @@
 
   - Chapter 4. Naive Bayesian Method
 
-  - Chapter 5. Decision Tree
+  - [Chapter 5. Decision Tree](https://github.com/Eurus-Holmes/Statistical_Learning_Method/blob/master/Notes/Decision-Tree.md)
 
   - Chapter 6. Logistic Regression and Maximum Entropy Model
 
