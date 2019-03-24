@@ -10,6 +10,7 @@
     $D_i$ is a subset of samples in which feature $A$ takes the $i^{th}$ value in $D$, 
     and $C_k$ is a subset of samples belonging to the $k^{th}$ class in $D$. 
     $n$ is the number of values of feature $A$, and $K$ is the number of classes.
+    
     - Information Gain Ratio(C4.5)
     
     <a href="https://www.codecogs.com/eqnedit.php?latex=g_R(D,A)=\frac{g(D,A)}{H_A(D)}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?g_R(D,A)=\frac{g(D,A)}{H_A(D)}" title="g_R(D,A)=\frac{g(D,A)}{H_A(D)}" /></a>
@@ -23,4 +24,19 @@
     Gini index of set D under characteristic A condition:
     
     <a href="https://www.codecogs.com/eqnedit.php?latex=Gini(D,&space;A)=\frac{|D_1|}{|D|}Gini(D_1)&plus;\frac{|D_2|}{|D|}Gini(D_2)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Gini(D,&space;A)=\frac{|D_1|}{|D|}Gini(D_1)&plus;\frac{|D_2|}{|D|}Gini(D_2)" title="Gini(D, A)=\frac{|D_1|}{|D|}Gini(D_1)+\frac{|D_2|}{|D|}Gini(D_2)" /></a>
+
+  - DT Second Step: DT Generation ---> Rule: Max(Information Gain) or Max(Information Gain Ratio) or Min(Gini Index)
+  
+  - DT Third Step: DT Pruning ---> Rule: Min(Loss Function) or Min(Cost Function)
+  
+  <a href="https://www.codecogs.com/eqnedit.php?latex=C_\alpha&space;(T)=C(T)&plus;\alpha&space;T" target="_blank"><img src="https://latex.codecogs.com/gif.latex?C_\alpha&space;(T)=C(T)&plus;\alpha&space;T" title="C_\alpha (T)=C(T)+\alpha T" /></a>
+  
+  > notes: $C(T)$ represents the prediction error of the model on the training data, that is, the degree of fitting of the model with the training data, $|T|$ represents the complexity of the model, and the parameter $\alpha>=0$ controls the influence between the two. $\alpha$ larger a prompts the selection of a simpler model (tree), and a smaller a prompts the selection of a more complex model (tree). $\alpha=0$ means that only the degree of fit of the model to the training data is considered, regardless of the complexity of the model.
+  
+  
+  
+  
+  
+  
+  
     
