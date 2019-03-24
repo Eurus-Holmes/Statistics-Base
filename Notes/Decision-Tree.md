@@ -7,7 +7,11 @@
     
     > notes: $H(D)$ is the entropy of data set $D$, $H(D_i)$ is the entropy of data set $D_i$, 
     and $H(D|A)$ is the conditional entropy of data set $D$ versus feature $A$. 
-    $D_i$ is a subset of samples in which feature $A$ takes the $i^th$ value in $D$, 
-    and $C_k$ is a subset of samples belonging to the $k^th$ class in $D$. 
+    $D_i$ is a subset of samples in which feature $A$ takes the $i^{th}$ value in $D$, 
+    and $C_k$ is a subset of samples belonging to the $k^{th}$ class in $D$. 
     $n$ is the number of values of feature $A$, and $K$ is the number of classes.
-    - 
+    - Information Gain Ratio(C4.5)
+    
+    <a href="https://www.codecogs.com/eqnedit.php?latex=g_R(D,A)=\frac{g(D,A)}{H_A(D)}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?g_R(D,A)=\frac{g(D,A)}{H_A(D)}" title="g_R(D,A)=\frac{g(D,A)}{H_A(D)}" /></a>
+    
+    > notes: $g(D,A)$ is the information gain, and $H_A(D)$ is the entropy of $D$ for the value of feature $A$.
