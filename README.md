@@ -10,7 +10,7 @@
 
   - [ ] Chapter 4. Naive Bayesian Method
 
-  - [ ] Chapter 5. Decision Tree
+  - [x] Chapter 5. Decision Tree
 
   - [ ] Chapter 6. Logistic Regression and Maximum Entropy Model
 
