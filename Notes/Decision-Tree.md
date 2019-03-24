@@ -15,3 +15,12 @@
     <a href="https://www.codecogs.com/eqnedit.php?latex=g_R(D,A)=\frac{g(D,A)}{H_A(D)}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?g_R(D,A)=\frac{g(D,A)}{H_A(D)}" title="g_R(D,A)=\frac{g(D,A)}{H_A(D)}" /></a>
     
     > notes: $g(D,A)$ is the information gain, and $H_A(D)$ is the entropy of $D$ for the value of feature $A$.
+    
+    - Gini Index (CART: Classification And Regression Tree)
+    
+    <a href="https://www.codecogs.com/eqnedit.php?latex=Gini(D)=1-\sum_{k=1}^{K}(\frac{|C_k|}{|D|})^2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Gini(D)=1-\sum_{k=1}^{K}(\frac{|C_k|}{|D|})^2" title="Gini(D)=1-\sum_{k=1}^{K}(\frac{|C_k|}{|D|})^2" /></a>
+    
+    Gini index of set D under characteristic A condition:
+    
+    <a href="https://www.codecogs.com/eqnedit.php?latex=Gini(D,&space;A)=\frac{|D_1|}{|D|}Gini(D_1)&plus;\frac{|D_2|}{|D|}Gini(D_2)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Gini(D,&space;A)=\frac{|D_1|}{|D|}Gini(D_1)&plus;\frac{|D_2|}{|D|}Gini(D_2)" title="Gini(D, A)=\frac{|D_1|}{|D|}Gini(D_1)+\frac{|D_2|}{|D|}Gini(D_2)" /></a>
+    
