@@ -28,11 +28,15 @@
   - DT Second Step: DT Generation ---> Rule: Max(Information Gain) or Max(Information Gain Ratio) or Min(Gini Index)
   
   - DT Third Step: DT Pruning ---> Rule: Min(Loss Function) or Min(Cost Function)
-  
   <a href="https://www.codecogs.com/eqnedit.php?latex=C_\alpha&space;(T)=C(T)&plus;\alpha&space;T" target="_blank"><img src="https://latex.codecogs.com/gif.latex?C_\alpha&space;(T)=C(T)&plus;\alpha&space;T" title="C_\alpha (T)=C(T)+\alpha T" /></a>
   
   > notes: $C(T)$ represents the prediction error of the model on the training data, that is, the degree of fitting of the model with the training data, $|T|$ represents the complexity of the model, and the parameter $\alpha>=0$ controls the influence between the two. $\alpha$ larger a prompts the selection of a simpler model (tree), and a smaller a prompts the selection of a more complex model (tree). $\alpha=0$ means that only the degree of fit of the model to the training data is considered, regardless of the complexity of the model.
-  
+ 
+ 
+----
+# Exercise
+[5.1 & 5.2 & 5.3 & 5.4 --- from CSDN](https://blog.csdn.net/familyshizhouna/article/details/72551841)
+
   
   
   
