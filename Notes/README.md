@@ -4,7 +4,7 @@
 
   - Chapter 2. Perceptron
 
-  - Chapter 3. K Nearest Neighbor Method
+  - [Chapter 3. K Nearest Neighbor Method](https://github.com/Eurus-Holmes/Statistical_Learning_Method/blob/master/Notes/K-Nearest-Neighbor-Method.md)
 
   - Chapter 4. Naive Bayesian Method
 
