@@ -20,3 +20,14 @@
     When the $k$ value is small, the k-nearest neighbor model is more complicated; when the $k$ value is large, the k-nearest neighbor model is simpler. The choice of $k$ value reflects the trade-off between the approximation error and the estimation error. When the $k$ value decreases, the approximation error decreases and the estimation error increases. When the $k$ value increases, the approximation error increases and the estimation error decreases. The optimal $k$ is usually chosen by cross-validation.
     
     - Classification Decision Rule: Majority Voting Rule --- Minimize Empirical Risk
+
+  - kd tree
+  
+  
+
+----
+# Exercise
+[3.1 & 3.2 & 3.3 --- from Zhenghao Zhang](https://sine-x.com/statistical-learning-method/#%E7%AC%AC3%E7%AB%A0-k%E9%82%BB%E8%BF%91%E7%AE%97%E6%B3%95)
+
+
+
