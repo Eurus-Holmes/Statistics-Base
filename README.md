@@ -6,7 +6,7 @@
 
   - [ ] Chapter 2. Perceptron
 
-  - [ ] Chapter 3. K Nearest Neighbor Method
+  - [x] Chapter 3. K Nearest Neighbor Method
 
   - [ ] Chapter 4. Naive Bayesian Method
 
