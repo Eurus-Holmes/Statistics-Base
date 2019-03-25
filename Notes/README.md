@@ -23,3 +23,8 @@
   - Chapter 11. Conditional Random Fields
 
   - Chapter 12. Summary of Statistical Learning Methods
+
+
+----
+# Exercise Reference
+  - [Zhenghao Zhang's Notes](https://sine-x.com/statistical-learning-method/)
